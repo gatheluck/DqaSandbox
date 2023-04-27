@@ -71,3 +71,21 @@ $ sudo apt install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 ```
 
 If `sudo docker run hello-world` works, installation succeeded.
+
+## Embedding
+
+At 2023/04/28, OpenAPI recommends to use `text-embedding-ada-002`.
+
+About `text-embedding-ada-002`:
+- Tokenizer: cl100k_base
+- Max input tokens: 8191
+- Output Dimensions: 1536
+
+## References
+
+- [Embeddings](https://platform.openai.com/docs/guides/embeddings)
+- [Question Answering over Docs](https://python.langchain.com/en/latest/use_cases/question_answering.html)
+- [近傍探索を使ってブログ内検索してみる](https://michimani.net/post/programming-serach-blog-posts-by-nearest-neighbor-search/)
+- [ChatGPT APIの運用で必須のツール: LangChainの使い方まとめ (1)](https://qiita.com/sakasegawa/items/d01dafdf0c77da133f24)
+- [ChatGPT APIとFaissを使って長い文章から質問応答する仕組みを作ってみる](https://qiita.com/sakasegawa/items/16714fa132e874cab069#embeddingsqa%E3%81%AE%E5%AE%9F%E8%A3%85-bertjapanesetokenizer%E3%82%92%E4%BD%BF%E3%81%86)
+- [ベクトル検索ライブラリ Faiss を試す](https://note.com/npaka/n/nb766e344a4fc)
