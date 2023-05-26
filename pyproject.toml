@@ -23,6 +23,7 @@ classifiers = [
 [tool.poetry.dependencies]
 python = "^3.10"
 llama-index = "^0.6.10.post1"
+pypdf = "^3.9.0"
 
 [tool.poetry.group.dev.dependencies]
 black = "^23.3.0"
