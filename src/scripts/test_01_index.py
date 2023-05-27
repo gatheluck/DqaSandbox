@@ -10,4 +10,5 @@ if __name__ == "__main__":
 
     # https://gpt-index.readthedocs.io/en/v0.6.8/guides/primer/index_guide.html
     index = GPTVectorStoreIndex.from_documents(documents)
-    index.save_to_disk("outputs/index.json")
+    # https://gpt-index.readthedocs.io/en/latest/guides/primer/usage_pattern.html#optional-save-the-index-for-future-use
+    index.storage_context.persist(persist_dir="./data/storage")
