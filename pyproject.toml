@@ -24,6 +24,8 @@ classifiers = [
 python = "^3.10"
 llama-index = "^0.6.10.post1"
 pypdf = "^3.9.0"
+faiss-cpu = "^1.7.4"
+langchain = "^0.0.189"
 
 [tool.poetry.group.dev.dependencies]
 black = "^23.3.0"

@@ -1,43 +1,10 @@
 # DQA Sandbox
 
-![stable](https://img.shields.io/badge/stable-v0.1.3-blue)
-[![tests](https://github.com/cvpaperchallenge/Ascender/actions/workflows/lint-and-test.yaml/badge.svg)](https://github.com/cvpaperchallenge/Ascender/actions/workflows/lint-and-test.yaml)
 [![MIT License](https://img.shields.io/github/license/cvpaperchallenge/Ascender?color=green)](LICENSE)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![Code style: flake8](https://img.shields.io/badge/code%20style-flake8-black)](https://github.com/PyCQA/flake8)
 [![Imports: isort](https://img.shields.io/badge/%20imports-isort-%231674b1?style=flat&labelColor=ef8336)](https://pycqa.github.io/isort/)
 [![Typing: mypy](https://img.shields.io/badge/typing-mypy-blue)](https://github.com/python/mypy)
-
-## Project Organization
-
-```
-    ├── .github/           <- Settings for GitHub.
-    │
-    ├── data/              <- Datasets.
-    │
-    ├── environments/       <- Provision depends on environments.
-    │
-    ├── models/            <- Pretrained and serialized models.
-    │
-    ├── notebooks/         <- Jupyter notebooks.
-    │
-    ├── outputs/           <- Outputs.
-    │
-    ├── src/               <- Source code. This sould be Python module.
-    │
-    ├── tests/             <- Test codes.
-    │
-    ├── .flake8            <- Setting file for Flake8.
-    ├── .dockerignore
-    ├── .gitignore
-    ├── LICENSE
-    ├── Makefile           <- Makefile used as task runner.
-    ├── poetry.lock        <- Lock file. DON'T edit this file manually.
-    ├── poetry.toml        <- Setting file for Poetry.
-    ├── pyproject.toml     <- Setting file for Project. (Poetry, Black, isort, Mypy)
-    └── README.md          <- The top-level README for developers.
-
-```
 
 ## Prerequisites
 
@@ -89,3 +56,4 @@ About `text-embedding-ada-002`:
 - [ChatGPT APIの運用で必須のツール: LangChainの使い方まとめ (1)](https://qiita.com/sakasegawa/items/d01dafdf0c77da133f24)
 - [ChatGPT APIとFaissを使って長い文章から質問応答する仕組みを作ってみる](https://qiita.com/sakasegawa/items/16714fa132e874cab069#embeddingsqa%E3%81%AE%E5%AE%9F%E8%A3%85-bertjapanesetokenizer%E3%82%92%E4%BD%BF%E3%81%86)
 - [ベクトル検索ライブラリ Faiss を試す](https://note.com/npaka/n/nb766e344a4fc)
+- [LlamaIndexを完全に理解するチュートリアル その２：テキスト分割のカスタマイズ](https://dev.classmethod.jp/articles/llamaindex-tutorial-002-text-splitter/)
